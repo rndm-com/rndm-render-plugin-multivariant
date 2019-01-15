@@ -1,0 +1,42 @@
+{
+  "type": "multivariant.Multivariant",
+  "props": {
+    "rndm": {
+      "type": "react-native.View",
+      "props": {
+        "children": {
+          "type": "react-native.Image",
+          "props": {
+            "style" : {
+              "width": 50,
+              "height": 50
+            },
+            "source": {
+              "uri": "https://unixtitan.net/images/icon-transparent-internet-5.png"
+            }
+          }
+        }
+      }
+    },
+    "args": [{
+      "variants": [{
+        "getter": "application.os",
+        "operator": "===",
+        "value": "ios"
+      }],
+      "setters": {
+        "props.children.props.source.uri": "http://simpleicon.com/wp-content/uploads/apple.png"
+      }
+    }, {
+      "variants": [{
+        "getter": "application.os",
+        "operator": "===",
+        "value": "android"
+      }],
+      "setters": {
+        "props.children.props.source.uri": "http://simpleicon.com/wp-content/uploads/android.png"
+      }
+    }
+    ]
+  }
+}

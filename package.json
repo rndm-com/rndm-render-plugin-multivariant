@@ -1,0 +1,20 @@
+{
+  "name": "@rndm/render-plugin-multivariant",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": "RNDM",
+  "license": "Apache-2.0",
+  "scripts": {},
+  "description": "RNDM Render Plugin: Multivariant. State-based variable changes for RNDM Render",
+  "homepage": "https://github.com/rndm-com/rndm-render-plugin-multivariant#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rndm-com/rndm-render-plugin-multivariant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rndm-com/rndm-render-plugin-multivariant/issues"
+  },
+  "dependencies": {
+    "uuid": "^3.2.1"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "multivariant.Multivariant",
+  "props": {
+    "rndm": {
+      "type": "react-native.View",
+      "props": {
+        "children": {
+          "type": "react-native.Text",
+          "props": {
+            "children": "Desktop or Laptop"
+          }
+        }
+      }
+    },
+    "args": [{
+      "variants": [{
+        "getter": "application.window.width",
+        "operator": "<=",
+        "value": 800
+      }],
+      "setters": {
+        "props.children.props.children": "Tablet"
+      }
+    }, {
+      "variants": [{
+        "getter": "application.window.width",
+        "operator": "<=",
+        "value": 400
+      }],
+      "setters": {
+        "props.children.props.children": "Phone"
+      }
+    }]
+  }
+}
