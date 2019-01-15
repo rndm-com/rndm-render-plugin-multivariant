@@ -19,7 +19,7 @@ npm install --save @rndm/render-plugin-multivariant
 
 ### Post Installation
 
-In order to allow this plugin to work, it must first be included in your project. You can do this inside yout main index file:
+In order to allow this plugin to work, it must first be included in your project. You can do this inside your main index file:
 
 ```javascript
 import '@rndm/render-plugin-multivariant';
@@ -77,11 +77,11 @@ The above example uses an identifier that hooks into the application window widt
 
 **_Please Note:_** The ordering of the args and variants are important. The latter args and variants take precedence over the those that come before.
 
-### AB Testing
+### A/B Testing
 
-This plugin includes a simple piece of middleware that will generate a unique user identifier for test purposes. When included as part of your redux middleware, it will attempt to fetch the ID from the local storage, and upon failure, geenrate a new one and persist this.
+This plugin includes a simple piece of middleware that will generate a unique user identifier for test purposes. When included as part of your redux middleware, it will attempt to fetch the ID from the local storage, and upon failure, generate a new one and persist this.
 
-In order to include this, you can do the following isidne your redux/middleware/index.js file:
+In order to include this, you can do the following inside your redux/middleware/index.js file:
 
 ```javascript
 import { multivariant } from '@rndm/render-plugin-multivariant';
