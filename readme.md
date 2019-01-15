@@ -1,4 +1,4 @@
-# RNDM Render Plugin: Firebase
+# RNDM Render Plugin: Multivariant
 
 ## About
 
