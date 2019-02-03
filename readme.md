@@ -1,15 +1,15 @@
-# RNDM Render Plugin: Multivariant
+# [RNDM](https://www.rndm.com) Render Plugin: Multivariant
 
 ## About
 
-This plugin provides functionality for [RNDM Render package](https://github.com/rndm-com/rndm-render) by allowing the user to define state based properties that can determine layout or functionality.
+This plugin provides functionality for [RNDM Render package](https://www.rndm.com/docs/rndm-render) by allowing the user to define state based properties that can determine layout or functionality.
 
 ## Installation
 
-If you have not already done so, then please ensure you have installed the [RNDM Render](https://github.com/rndm-com/rndm-render) as well as the following RNDM packages:
+If you have not already done so, then please ensure you have installed the [RNDM Render](https://www.rndm.com/docs/rndm-render) as well as the following RNDM packages:
 
-- [RNDM Plugin: Core](https://github.com/rndm-com/rndm-render-plugin-core)
-- [RNDM Plugin: Redux](https://github.com/rndm-com/rndm-render-plugin-redux)
+- [RNDM Plugin: Core](https://www.rndm.com/docs/rndm-render/plugin/core)
+- [RNDM Plugin: Redux](https://www.rndm.com/docs/rndm-render/plugin/redux)
 
 ### From NPM
 
@@ -115,3 +115,5 @@ const middleware = [
 - 'endsWith': Used to define if a the getter item ends with the input value (String)
 
 - 'typeOf': Used to define if a the getter item is a type of input value (String)
+
+Check out the [Playground](https://www.rndm.com/playground) page to see how these features work.
