@@ -1,4 +1,4 @@
-import { AsyncStorage } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { setABTestIdentifier } from '../../actions';
 import { AB_TEST_IDENTIFIER } from '../_constants';
 
